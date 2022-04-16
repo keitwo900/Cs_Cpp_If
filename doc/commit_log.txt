@@ -1,0 +1,33 @@
+・C#-C++インタフェースサンプルプロジェクト
+
+■本プロジェクトについて
+・本プロジェクトは、C#プロジェクトから、C++プロジェクト(またはC言語のぷリジェクト)の関数をコールできるようにする
+　インタフェースのサンプルプロジェクトです。
+　C++ CLRを介することで実現しています。
+
+■追加ファイル
+Cpp/Cpp.vcxproj
+Cpp/Cpp.vcxproj.filters
+Cpp/stdafx.cpp
+Cpp/stdafx.h
+Cpp/targetver.h
+・C++(またはC言語)ネイティブコードのプロジェクトの関連ファイルです。
+
+Cpp_CLR/AssemblyInfo.cpp
+Cpp_CLR/Cpp_CLR.cpp
+Cpp_CLR/Cpp_CLR.h
+Cpp_CLR/Cpp_CLR.vcxproj
+Cpp_CLR/Cpp_CLR.vcxproj.filters
+Cpp_CLR/Resource.h
+Cpp_CLR/app.ico
+Cpp_CLR/app.rc
+Cpp_CLR/stdafx.cpp
+Cpp_CLR/stdafx.h
+・C++ CLRプロジェクトの関連ファイルです。ネイティブコードをラッピングし、C#から使えるようにします。
+
+doc/commit_log.txt
+・本ファイルです。Gitでcommitした内容のログを取っていきます。
+
+■変更ファイル
+Cs_Cpp_If.sln
+・Cpp_CLRプロジェクト、Cppプロジェクトをソリューションに追加しました。
