@@ -1,5 +1,6 @@
 #include "stdafx.h"
 
+#include "../Cpp/Adder.h"
 #include "Cpp_CLR.h"
 
 namespace CppCLR
@@ -7,6 +8,9 @@ namespace CppCLR
     // TODO: このクラスのメソッドをここに追加します。
     int Cpp_CLR_Class::AdderWrap(int a, int b)
     {
-        return a + b;
+        int ans;
+
+        ans = Adder(a, b);
+        return ans;
     }
 }
