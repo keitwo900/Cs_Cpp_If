@@ -1,4 +1,4 @@
-#include "stdafx.h"
+//#include "stdafx.h"
 
 #include "../Cpp/Adder.h"
 #include "Cpp_CLR.h"
