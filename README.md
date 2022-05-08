@@ -30,3 +30,26 @@ Cpp: ネイティブコードプロジェクトです。CLRプロジェクトで
   - プロジェクトのプロパティ→C/C++→全般→デバッグ情報の形式を、「ZI」から「Zi」に変更。(Cpp_CLRのビルドでWarning LNK4075が出るため。)
   - プロジェクトのプロパティ→C/C++→プリコンパイル済みヘッダー→プリコンパイル済みヘッダーを、「プリコンパイル済みヘッダーを使用しない」に変更
   - プロジェクトのプロパティ→C/C++→詳細設定→コンパイル言語の選択を規定→TPに変更(C言語のソースコードでネイティブのlibを作成したため。C++のソースコードならこの変更は不要)
+
+# LISENCE
+MIT License
+
+Copyright (c) 2022 keitwo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy</br>
+of this software and associated documentation files (the "Software"), to deal</br>
+in the Software without restriction, including without limitation the rights</br>
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</br>
+copies of the Software, and to permit persons to whom the Software is</br>
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all</br>
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</br>
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</br>
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</br>
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</br>
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</br>
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</br>
+SOFTWARE.
